@@ -1,0 +1,18 @@
+CompileFlags:
+  CompilationDatabase: Build
+  Add:
+    - "-std=c++23"
+    - "-Wall"
+    - "-Wextra"
+
+Diagnostics:
+  UnusedIncludes: None 
+  MissingIncludes: Relaxed
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+
+Hover:
+  ShowAKA: Yes
